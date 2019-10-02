@@ -13,8 +13,9 @@ $price-color: #686565;
     font-weight: 200;
     text-align: center;
   }
-  .features-list{
+  .features-list {
     padding-top: 30px;
+    text-algin: left;
   }
 }
 
@@ -91,6 +92,10 @@ $price-color: #686565;
     position: absolute;
     right: 20%;
   }
+
+  .wrapper .features-list {
+    padding-left: 7vw;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -99,5 +104,9 @@ $price-color: #686565;
     bottom: 20%;
     position: absolute;
     top: 20%;
+  }
+
+  .wrapper .features-list {
+    padding-left: 25vw;
   }
 }
